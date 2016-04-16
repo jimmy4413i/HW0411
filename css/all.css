@@ -204,7 +204,7 @@ body{
 	padding-right: 20px;
 }
 .container2 a{
-	margin-left: -215px;
+	clear: left;
 }
 .container2 a:hover{
 	opacity: 0.5;
