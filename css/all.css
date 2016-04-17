@@ -7,12 +7,12 @@ caption,th {text-align:left;}
 h1,h2,h3,h4,h5,h6{font-size:100%;}
 q:before,q:after{content:'';}
 body{
-        background: 	#F5F5F5;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-    }
+    background-image: url(../images/bg_html.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 .wrap{
 	width: 900px;
 	height: 1400px;
@@ -23,7 +23,11 @@ body{
 .header{
 	width: 900px;
 	height: 150px;
-	background: 	#F5F5F5;
+	background-image: url(../images/bg_html.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 	position: relative;
 }
 .logo{
@@ -125,7 +129,11 @@ body{
 .blank{
 	width: 900px;
 	height: 50px;
-	background: #F5F5F5;
+	background-image: url(../images/bg_html.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 	position: absolute;
 	top: 415px;
 }
@@ -155,7 +163,11 @@ body{
 .blank2{
 	width: 900px;
 	height: 50px;
-	background: #F5F5F5;
+	background-image: url(../images/bg_html.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 	position: absolute;
 	top: 615px;
 }
@@ -304,7 +316,11 @@ body{
 .footer{
 	width: 900px;
 	height: 150px;
-	background: #F5F5F5;
+	background-image: url(../images/bg_html.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 	position: absolute;
 	bottom: 0;
 	left: 0;
