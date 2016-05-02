@@ -340,9 +340,9 @@ body{
 }
 .menu{
 	position: absolute;
-	width: 80%;
+	width: 100%;
 	top:50px;
-	margin-left: 10px;
+	margin-left: 0;
 }
 .menu li{
 	padding-left: 10px;		
