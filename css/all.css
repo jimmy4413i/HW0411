@@ -15,13 +15,12 @@ body{
 }
 .wrap{
 	width: 900px;
-	height: 1400px;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
 }
 .header{
-	width: 900px;
+	width: 100%;
 	height: 150px;
 	background-image: url(../images/bg_html.jpg);
     border-image-slice: 100% 1;
@@ -31,7 +30,7 @@ body{
 	position: relative;
 }
 .logo{
-	width: 200px;
+	width: 22%;
 }
 .logo h1{
 	position: absolute;
@@ -46,7 +45,7 @@ body{
 	background: url(../images/logo.png);
 }
 .menu{
-	width: 600px;
+	width: 66%;
 	margin-left: 290px;
 
 }
@@ -77,14 +76,13 @@ body{
 	opacity: 0.5;
 }
 .content{
-	width: 900px;
 	position: relative;
 }
 .picture a:hover{
 	opacity: 0.5;
 }
 .introduction{
-	width: 260px;
+	width: 30%;
 	height: 415px;
 	background: #222222;
 	position: absolute;
@@ -127,7 +125,6 @@ body{
 	background: #777777;
 }
 .blank{
-	width: 900px;
 	height: 50px;
 	background-image: url(../images/bg_html.jpg);
     border-image-slice: 100% 1;
@@ -161,7 +158,6 @@ body{
 	opacity: 0.5;
 }
 .blank2{
-	width: 900px;
 	height: 50px;
 	background-image: url(../images/bg_html.jpg);
     border-image-slice: 100% 1;
@@ -172,14 +168,14 @@ body{
 	top: 615px;
 }
 .shop{
-	width: 900px;
+	width: 100%;
 	height: 450px;
 	position: absolute;
 	top: 665px;
 	background: white;
 }
 .event{
-	width: 600px;
+	width: 66%;
 	height: 450px;
 }
 .event h3{
@@ -229,7 +225,7 @@ body{
 	padding-right: 20px;
 }
 .service{
-	width: 300px;
+	width: 33%;
 	height: 250px;
 	position: absolute;
 	top: 0;
@@ -266,7 +262,7 @@ body{
 	opacity: 0.5;
 }
 .search{
-	width: 300px;
+	width: 33%;
 	height: 200px;
 	position: absolute;
 	bottom: 0;
@@ -314,7 +310,7 @@ body{
 	background: #666666;
 }
 .footer{
-	width: 900px;
+	width: 100%;
 	height: 150px;
 	background-image: url(../images/bg_html.jpg);
     border-image-slice: 100% 1;
@@ -322,8 +318,7 @@ body{
     border-image-outset: initial;
     border-image-repeat: initial;
 	position: absolute;
-	bottom: 0;
-	left: 0;
+	top: 1300px;
 }
 .footer p{
 	padding-top: 10px;
@@ -336,4 +331,177 @@ body{
 }
 .footer  a:hover{
 	opacity: 0.5;
+}
+@media only screen and (max-width: 768px){
+.wrap{
+	width:100%;
+	margin:0px 0 0 0;
+	position: relative;
+}
+.menu{
+	position: absolute;
+	width: 80%;
+	top:50px;
+	margin-left: 10px;
+}
+.menu li{
+	padding-left: 10px;		
+}
+.picture img{
+	width: 100%;
+	height: 415px;
+	padding-top: 20px;
+}
+.introduction{
+	width: 100%;
+	height: 280px;
+	position: absolute;
+	left: 0;
+	top: 430px;
+}
+.blank{
+	height: 0;
+}
+.summary{
+	position: absolute;
+	top: 710px;
+	height: 170px;
+	background: white;
+	border-bottom:2px black solid;
+}
+.blank2{
+	height: 0;
+}
+.shop{
+	height: 680px;
+	position: absolute;
+	top: 885px;
+	background: white;
+}
+.container2 h4{
+	margin-top: 40px;
+}
+.event{
+	width: 100%;
+	height: 450px;
+	border-bottom:2px black solid;
+}
+.service{
+	width: 100%;
+	position: absolute;
+	top: 440px;
+}
+.service ul{
+	padding-left: 40px;
+
+} 
+.search{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 455px;
+	right: 0;
+}
+.footer{
+	position: absolute;
+	top: 1700px;
+}
+}
+@media only screen and (max-width: 480px) {
+body{
+	height: 0;
+}	
+.wrap{
+	width:100%;
+	margin:0px 0 0 0;
+	position: relative;
+}
+.header{
+	width: 100%;
+}
+.logo{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.menu{
+	width: 100%;
+	margin-left: 0;
+	margin-top: 60px;
+}
+.menu li{
+	padding-left: 0px;	
+	padding-bottom: 15px;
+	float: none;
+	margin-top: 20px;	
+	border-bottom:1px black solid;
+}
+.picture img{
+	height: 0;
+}
+.introduction{
+	width: 100%;
+	height: 350px;
+	position: absolute;
+	left: 0;
+	top: 300px;
+}
+.contact img{
+	height: 0;
+}
+.summary{
+	position: absolute;
+	top: 650px;
+	height: 300px;
+	background: white;
+	border-bottom:1px black solid;
+}
+.summary p{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.shop{
+	height: 1400px;
+	position: absolute;
+	top: 951px;
+	background: white;
+}
+.event{
+	width: 100%;
+	height: 800px;
+	border-bottom:1px black solid;
+}
+.container a{
+	float: none;
+}
+.container h4{
+	margin-left: 20px;
+}
+.container p{
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.container2 a{
+	float: none;
+}
+.container2 h4{
+	margin-top: 0px;
+}
+.service{
+	width: 100%;
+	position: absolute;
+	top: 820px;
+	border-bottom:1px black solid;
+}
+.search{
+	width: 100%;
+	position: absolute;
+	top: 1100px;
+}
+.footer{
+	position: absolute;
+	top: 2400px;
+}
 }
